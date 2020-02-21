@@ -28,3 +28,15 @@ const App = () => {
   )};
 
 export default App;
+
+// *******COULD NOT FIND README FILE SO I'M ANSWERING THE QUESTIONS HERE *****
+
+// What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.- React doesn't re-render after every change.  it uses the vDom to compare states and only changes what's necessary.  It also scales well for big projects because it breaks everything into smaller components.
+
+//  What does it mean to think in react? - Everything is a component. Parents can give info to children via props but not the other way around.  
+
+//  Describe state. - Info that the component must keep track of.  It can be updated and also passed as props to children.
+
+//  Describe props. - Props is a "read-only" version of state that can be passed around to child components.
+
+//  What are side effects, and how do you sync effects in a React component to state or prop changes? - Side effects occur when function affects something outside of itself.  We use useEffect to help sync in React.
